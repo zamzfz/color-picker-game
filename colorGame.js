@@ -18,7 +18,6 @@ for (var i = 0 ; i < square.length ; i++) {
 		var clickedColor = this.style.background;
 
 		if (clickedColor === pickedColor){
-			alert("Correct !");
 			message.textContent = "Correct !"
 			changeColor(clickedColor);
 			h1Display.style.background = pickedColor;
